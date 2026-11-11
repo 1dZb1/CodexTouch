@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.tmp/
+config.json
+*.log
+*.bak
+*.backup-*
+.env
+.env.*
+hooks.generated.toml

@@ -1,0 +1,17 @@
+{
+  "patterns": {
+    "complete": ["5"],
+    "attention": ["4", "4@250"],
+    "notification": ["4"],
+    "double_click": ["4", "4@250"],
+    "triple_click": ["4", "4@250", "4@250"],
+    "wave_then_click": ["9", "4@850"],
+    "custom_example": ["4", "5@300"]
+  },
+  "events": {
+    "Stop": "complete",
+    "PermissionRequest": "attention",
+    "Question": "attention",
+    "Notification": "notification"
+  }
+}

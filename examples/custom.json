@@ -1,0 +1,9 @@
+{
+  "patterns": {
+    "double_pulse": ["4", "4@300"],
+    "double_click": ["4", "4@250"],
+    "triple_click": ["4", "4@250", "4@250"],
+    "wave_then_click": ["9", "4@850"]
+  },
+  "events": { "Stop": "double_pulse", "PermissionRequest": null, "Question": null, "Notification": null }
+}
